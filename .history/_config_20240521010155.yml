@@ -1,18 +1,18 @@
 # Jekyll configuration
 markdown: kramdown
-# kramdown : markdown의 개조판.
+# kramdown : markdown의 개선판.
 # markdown에서 불편한 사항을 개선한 형태.
 
 # MyData
 owner:
-  name:           blue-brolly
-  avatar:         photo.jpg
-  bio:            "Ph.D. in Computer Science"
-  email:          ysleo6602@gmail.com
+  name:           blue-umbrella
+  avatar:        photo.jpg
+  bio:             "Ph.D. in Computer Science"
+  email:          moon9342@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
-  github:
+  githug:
   stackexchange:
   linkedin:
   instagram:
@@ -45,25 +45,26 @@ url: https://bluebrolly.github.io
 baseurl: /
 
 # Website info
-title: Hill of the Embedded world
+title: IT Technical Repository
 # 자신의 blog title.
 
-description: IT기반기술교육 블로그
+description: IT 관련 블로그
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
-cover: assets/built/images/blog-cover1.png
+cover: assets/built/images/blog-cover1.jpg
 # blog home에 표시될 blog cover image.
 
 logo:
+# logo 이미지가 있으면 등록
 logo_dark:
 
-favicon: assets/built/images/favicon.jpg
+favicon: assets/built/images/favicon.png
 # favicon으로 사용할 image
 
 production_url: https://bluebrolly.github.io/
 # 최종적으로 blog가 운영될 url
 
-source_url: https://github.com/moon9342/GitHubPageMaker/
+source_url: https://github.com/bluebrolly/GitHubPageMaker/
 # blogmaker(jekyll source folder)에 대한 github repository
 
 # Social info
@@ -110,7 +111,7 @@ feed:
 safe: False
 lsi: False
 
-username: moon9342
+username: bluebrolly
 repo: GitHubPageMaker
 # username : travis-ci와 연동하는 github의 username
 # repo: travis-ci와 연동하는 github의 repository이름
@@ -145,9 +146,9 @@ exclude:
   - assets/images
   - _posts/angular
   - _posts/et-cetera
-  #- _posts/python
+#  - _posts/python
   - _posts/typescript
-  #- _posts/jekyll
+#  - _posts/jekyll
   - _posts/iot
   - _posts/r
   - _posts/economy
